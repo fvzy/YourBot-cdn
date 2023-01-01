@@ -26,6 +26,8 @@ $(document).ready(function(event) {
 });
 	</script>
 <div class="row">
+<div class="card w-96 bg-base-100 shadow-xl">
+ <div class="card-body">
 <div class="col-md-3 col-xs-0"></div>
 <div class="col-md-6 col-xs-12">
 <div class="panel panel-primary">
@@ -37,7 +39,7 @@ $(document).ready(function(event) {
 <div class="tab-content" style="margin-top: 15px">
 <div class="tab-pane active" id="upload">
 <div class="form-group">
-<label>File: </label> <input type="file" name="file" id="the_file" class="file-input file-input-bordered file-input-primary w-full max-w-xs" required/>
+<input type="file" name="file" id="the_file" class="form-control" required/>
 </div>
 <div style="font-size: x-small">
 Maximum file size: <%= MaxSize %> </div>
@@ -55,6 +57,8 @@ Maximum file size: <%= MaxSize %> </div>
 </div>
 </div>
 </div>
+  </div>
+</div></div>
 </div>
 </div>
 <div class="col-md-12 text-center" style="margin-top: 50px">
